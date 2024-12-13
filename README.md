@@ -479,6 +479,21 @@ contactus.html
     </footer>
 </body>
 </html>
+
+views.py
+
+from django.shortcuts import render
+def rest(request):
+    return render(request,'index 3.html')
+
+urls.py
+from django.contrib import admin 
+from django.urls import path 
+from restuarant import views
+urlpatterns = [ 
+    path('admin/', admin.site.urls), 
+    path('restu/',views.rest)
+]
 ```
 
 
