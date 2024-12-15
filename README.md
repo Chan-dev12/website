@@ -480,6 +480,75 @@ contactus.html
 </body>
 </html>
 
+admin.html
+<html>
+
+<head>
+    <title>Pizza Delight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    img{
+        height: 300px;
+        width: 250px;
+    }
+</style>
+
+<!-- <body>
+    <nav>
+        <h3>Opening time : 11.00 am - 11.00 pm</h3>
+        <h1 style="font-size: 80px;">Aswitha Restaurant</h1>
+        <h5 style="display: inline;">&lpar;NONVEG&rpar;</h5>
+        <img src="WhatsApp Image 2024-10-17 at 10.06.30_b221dd09.jpg" width="200px" height="170px"
+            style="margin-left: 85px;">
+        <ul>
+            <li><a href="menu.html">MENU</a> |</li>
+            <li><a href="admin.html">Administration</a> |</li>
+            <li>COUPON |</li>
+        </ul>
+        <a class="box" href="C:\Users\admin\Desktop\HTML\Sub Codes\ordernow code.html">ORDER NOW!!!</a>
+    </nav><br>
+
+    <hr><br>
+    <div class="searchbar">
+        <input placeholder="Search">
+    </div> -->
+
+    <center>
+    <h1> Our Administrators</h1>
+    <div class="admin">
+        {% load static %}
+
+        <img src="{% static 'chan photo.jpg' %}" alt="">
+        <img src="{% static 'priyesh.jpg' %}" alt="">
+        <img src="{% static 'karthi.jpg' %}" alt="">
+        <img src="{% static 'ashwin.jpg' %}" alt="">
+        <img src="{% static 'gowthan.jpg' %}" alt="">
+        <img src="{% static 'venkat.jpg' %}" alt="">
+    </div>
+    </center>
+    <hr>
+    <center>
+    <footer>
+
+        <div class="a">
+            <p>Contact us: More information<br> </p>
+        </div>
+        <div class="info">
+            +91 9939959945<br>
+            www.pizzadelight@gmail.com<br>
+            123,anna nagar,chennai
+        </div>
+        <p>
+            Thank You Visit Again
+        </p>
+
+    </footer>
+    </center>
+</body>
+
+</html>
+
 views.py
 
 from django.shortcuts import render
@@ -502,6 +571,7 @@ urlpatterns = [
 ![Screenshot 2024-12-13 110204](https://github.com/user-attachments/assets/b216361f-942c-4e22-9eed-e915638c6652)
 ![Screenshot 2024-12-13 111957](https://github.com/user-attachments/assets/3a376e75-dac5-44f7-81be-b26af56d90a0)
 ![Screenshot 2024-12-13 112146](https://github.com/user-attachments/assets/236ac29e-f2f5-489a-94bd-9d9278fcdb51)
+![Screenshot 2024-12-16 011103](https://github.com/user-attachments/assets/058930d2-be63-4dde-b5d1-4513536960f1)
 
 
 
